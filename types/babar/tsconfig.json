@@ -6,8 +6,9 @@
         ],
         "noImplicitAny": true,
         "noImplicitThis": true,
-        "strictNullChecks": true,
         "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
         "baseUrl": "../",
         "typeRoots": [
             "../"
@@ -18,6 +19,6 @@
     },
     "files": [
         "index.d.ts",
-        "babel-webpack-plugin-tests.ts"
+        "babar-tests.ts"
     ]
 }
